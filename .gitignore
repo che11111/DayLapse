@@ -1,0 +1,43 @@
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+# Xcode用户数据
+**/xcuserdata/
+*.xcuserstate
+
+# Workspace配置
+project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+
+# System
+.DS_Store
+*.swp
+*.back
+*.orig
+
+# AppCode
+.idea/
+
+# Local development
+.env
+
+# Generated files
+*.log
+*.xctestplan
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
